@@ -1,0 +1,8 @@
+{
+  "NASDAQ IPO Calendar RSS": "https://www.nasdaq.com/feed/rssoutbound?category=IPOs",
+  "SEC press releases": "https://www.sec.gov/news/pressreleases.rss",
+  "Yahoo Finance news RSS": "https://finance.yahoo.com/news/rssindex",
+  "TechCrunch AI RSS": "https://techcrunch.com/category/artificial-intelligence/feed/",
+  "The Verge AI RSS": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+  "Crunchbase News RSS": "https://news.crunchbase.com/feed/"
+}
