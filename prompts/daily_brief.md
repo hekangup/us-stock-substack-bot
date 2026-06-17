@@ -29,4 +29,6 @@ Rules:
 - Do not copy full article text.
 - Use only RSS titles, links, and summaries as source material.
 - Be explicit when a conclusion is interpretation rather than reported fact.
-- Do not provide personalized financial advice.
+- Include this exact risk notice: This is not financial advice.
+- Only provide news summaries, trend observations, and risk notes.
+- Do not write Buy, Sell, Hold, target price, portfolio sizing, or personalized investment recommendations.

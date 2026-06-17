@@ -23,14 +23,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate Markdown draft
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
-        run: python main.py
+        run: python main.py --mock
 
       - name: Upload draft artifact
         uses: actions/upload-artifact@v4
         with:
           name: substack-draft
-          path: drafts/*.md
+          path: |
+            drafts/*.md
+            drafts_cn/*.md
           if-no-files-found: error
